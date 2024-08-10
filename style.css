@@ -1,12 +1,24 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 * {
-    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: gray;
 }
 
 h1,
 h2 {
     font-weight: bold;
+    margin: 16px 0;
 }
 
 h1 {
@@ -17,6 +29,32 @@ h2 {
     font-size: 28px;
 }
 
+ul {
+    padding: 0 24px;
+}
+
+ol {
+    padding: 0 32px;
+}
+
 ul li {
     color: darkolivegreen;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: blanchedalmond;
+    width: 680px;
+    padding: 24px;
+    margin: 40px auto;
+}
+
+.box {
+    background-color: white;
+    padding: 16px;
+    border: 4px solid brown;
 }
